@@ -39,7 +39,7 @@ $(document).ready(function() {
 var questions = ["Where does Ariel live", 
                   "Who does Belle fall in love with?",
                   "What is this Characters name?",
-                  "What is Rapunzel's natural hair color?",
+                  "What is Rapunzel's original natural hair color?",
                   "What is Elsa's special power?"];
 var airelAnswers = ["Under the Sea", "On the Beach", "In the Sky", "In the Forest"]
 var belleAnswers = ["Cogsworth", "Gaston", "The Candlestick", "The Beast"]
