@@ -1,0 +1,175 @@
+/*French Corner Woodworks Stylesheet*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main {
+  margin: auto;
+  width: 900px;
+}
+
+#castleL {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#castleR {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 50px;
+  background-color: #A18CB5;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+h1 {  
+  display: inline;
+  margin: auto;
+  color: white;
+  font-size: 40px;
+}
+
+
+#arielPose, #bellePose, #tianaPose, #rapPose, #elsaPose {
+  width: 406px;
+  height: 466px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+
+}
+
+.belle, .tiana, .rap, .elsa, .final {
+  display: none;
+} 
+
+#arielPose {
+  background-image: url('../images/ArielPose.jpg');
+}
+
+#bellePose {
+  background-image: url('../images/BellePose.jpg');
+}
+
+#tianaPose {
+  background-image: url('../images/TianaPose.jpg');
+}
+
+#rapPose {
+  background-image: url('../images/RapPose.jpg');
+}
+
+#elsaPose {
+  background-image: url('../images/ElsaPose.png');
+}
+
+#finalScore {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 50px;
+  background-color: #A18CB5;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+h3 {  
+  display: inline;
+  margin: auto;
+  color: white;
+  font-size: 40px;
+}
+
+
+/*Answers / Button Section*/
+#answersGroup {
+  margin-top: 20px;
+  height: 200px;
+}
+
+#answersGroup div {
+  width: 690px;
+  margin: auto;
+}
+
+button {
+  background-color: #A18CB5;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  margin: 20px;
+  font-size: 17px;
+
+}
+
+/*Question Number*/
+.footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 50px;
+  background-color: #A18CB5;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+h2 {  
+  display: inline;
+  margin: auto;
+  color: white;
+  font-size: 40px;
+}
